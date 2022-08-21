@@ -1,0 +1,100 @@
+body {
+    margin: 0;
+    place-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+    background-color: #e9f0fe;
+    font-family: "Inter", sans-serif;
+}
+
+#main-container {
+    display: flex;
+    height: 100%;
+    margin: auto;
+    width: 640px;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: space-between;
+    place-items: center;
+    gap: 10px;
+}
+
+#inner-container {
+    width: 17.5%;
+    height: 100%;
+    display: flex;
+    font-size: 20px;
+    text-align: center;
+    margin: 10%;
+}
+
+#time-container {
+    position: relative;
+    clear: both;
+}
+
+#bookmarks-container {
+    position: relative;
+    clear: both;
+}
+
+#homeImage {
+    width: 300%;
+    height: auto;
+}
+
+#time-text {
+    font-size: 50px;
+    font-weight: normal;
+    color: #f59dad;
+}
+
+
+.bookmarks-container {
+    padding: 15px;
+    margin: 2%;
+    background-color: #f5f6f8;
+    border-radius: 8px;
+    box-shadow: 5px 5px 3px 0px #eaedf3;
+
+}
+
+p {
+    margin: auto;
+
+}
+
+ul {
+    list-style-type: none;
+    text-align: center;
+    padding: 5%;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 2px 0px;
+    width: 100%;
+    text-align: center;
+}
+
+.link-text {
+    display: inline-block;
+    padding: 2px 0px;
+    background: linear-gradient(#f59dad, #f59dad);
+    background-size: 0 0.1em;
+    background-position: 0 100%;
+    background-repeat: no-repeat;
+    transition: background-size 250ms, color 250ms;
+    color: #7d9ee2;
+    text-align: center;
+}
+
+a:hover>.link-text {
+    background-size: 100% 0.1em;
+    color: #f59dad;
+}
